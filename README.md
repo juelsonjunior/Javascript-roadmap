@@ -16,5 +16,14 @@ mobile jogos APIs extensões para navegadores e muitos mais
 
 [ 3 ] - Permite desenvolver plicativos deskTop usando eletron
 
-E muitas outras coisas em javascript não é obrigatorio finalizar as instruções com ; como em outras lingauem de 
+E muitas outras coisas, em javascript não é obrigatório finalizar as instruções com ( ; ) como em outras linguagens de 
 programação.
+
+Se quiser ter uma base solida de conhecimento não se limite ao repositório procure em tutoriais documentações foruns e em todo lugar aonde pode gerar informação confiável  o limite é o seu e a sua mente criativa abaixo deixei a documentação do javascript e um curso recomendado que fiz também qunado estava começando em JS.
+
+Pode ler ver videos e passar o mês todo consumindo conteudo de programação e achar que já sabe, mais senão abrir o seu editor de codigo é codar é todo seu tempo vendo conteudo com os braços cruzados não servirão para nada então pratique.
+
+Documentação official: [Javascript oficial](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+Curso recomendado: [Curso de JavaScript](https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&ab_channel=CursoemV%C3%ADdeo)
+
