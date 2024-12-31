@@ -15,3 +15,6 @@ mobile jogos APIs extensões para navegadores e muitos mais
 [ 2 ] - Javascript também permite trabalhar com realidade virtual e aumentada
 
 [ 3 ] - Permite desenvolver plicativos deskTop usando eletron
+
+E muitas outras coisas em javascript não é obrigatorio finalizar as instruções com ; como em outras lingauem de 
+programação.
