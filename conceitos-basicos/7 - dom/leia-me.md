@@ -40,4 +40,4 @@ HTML no navegador
 
 Com isso podemos ver que o DOM dividi cada elemento um unico só e isso nos permite fazer qualquer tipo de manipula''cões usando JS deste modificar elementos(texto, cor, posição, tamanho etc) criar elementos(p, div, h1, img etc) e muitas outras coisas.
 
-Como acessar elemntos hrml usando JS
+Como acessar elementos html usando JS
