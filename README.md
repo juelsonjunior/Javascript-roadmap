@@ -1,4 +1,4 @@
-# RoadMAp Javascript
+# ROADMAP JAVASCRIPT
 
 Nesse roadmap tem uma lista de conceitos e exercicios sobre diversos assunto e esse roamap abrange desde o basico
 até o avançado com assunto como promise async/await teste unitario, perfomace frameworks e muito mais 
