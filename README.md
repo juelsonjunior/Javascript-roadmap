@@ -9,21 +9,26 @@ no navegador dos usuários. No entanto, com a introdução do Node.js, também p
 
 ## Algumas versatilidades do javascript
 
-[ 1 ] - Javascript é uma linguagem que roda no lado do servidor e no lado do cliente permitindo criar aplicativos 
-mobile jogos APIs extensões para navegadores e muitos mais 
+[ 1 ] - Javascript é uma linguagem que roda no lado do servidor e no lado do cliente permitindo trabalhar tanto com
+o front-end quanto com o back-end
 
 [ 2 ] - Javascript também permite trabalhar com realidade virtual e aumentada
 
-[ 3 ] - Permite desenvolver aplicativos deskTop usando eletron
+[ 3 ] - Permite desenvolver aplicativos para varias plataformas tanto desktop usando eletron aplicativos mobile jogos 
+usando React Native APIs extensões para navegadores e muitos mais
 
-E muitas outras coisas, em javascript não é obrigatório finalizar as instruções com ( ; ) como em outras linguagens de 
-programação.
+Em javascript não é obrigatório finalizar as instruções com ( ; ) como em outras linguagens de 
+programação fora que javascript usa tipagem dinamica.
 
-Se quiser ter uma base solida de conhecimento não se limite ao repositório procure em tutoriais documentações foruns e em todo lugar aonde pode gerar informação confiável  o limite é o seu e a sua mente criativa abaixo deixei a documentação do javascript e um curso recomendado que fiz também qunado estava começando em JS.
+Pode ler ver videos e passar o mês todo consumindo conteúdo de programação e achar que já sabe progrmar, mais não funciona 
+assim porque se você não abrir o seu editor de codigo é codar, todo seu tempo vendo conteudo com os braços cruzados 
+não servirão para nada então pratique.
 
-Pode ler ver videos e passar o mês todo consumindo conteudo de programação e achar que já sabe, mais senão abrir o seu editor de codigo é codar é todo seu tempo vendo conteudo com os braços cruzados não servirão para nada então pratique.
+Se quiser ter uma base solida de conhecimento não se limite ao repositório procure em tutoriais documentações foruns e em todo 
+lugar aonde pode gerar informação confiável  o limite é o ceu e a sua mente criativa. abaixo deixei a documentação do javascript 
+e um curso que recomendo pela didatica e a confiabilidades das informações.
 
-Documentação official: [Javascript oficial](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+Documentação oficial: [Javascript oficial](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 Curso recomendado: [Curso de JavaScript](https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&ab_channel=CursoemV%C3%ADdeo)
 
