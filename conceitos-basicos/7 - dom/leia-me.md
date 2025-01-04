@@ -1,8 +1,16 @@
 # DOM (Document Object Model)
 
 O document object model é uma interface de programação para documentos HTML e XML ele define a estrutura logica dos documentos em uma pagins é como eles podem ser acessados e manipulados na web o DOM cria uma arvore do seu documento dividindo tudo em nós onde cada nó pode representar um elemento atributo ou texto.
+<br>
 
-Estrutura básica do DOM
+E sobre do DOM existe muito mais muito conhecimento então vou listar apenas alguns conceitos para teres por onde começar e se por acaso quiserer aprofundar os seus conhecimentos já teras uma linha de racicionio a seguir.
+<br>
+
+E o que podemos acessar no DOM html atraves do javascript: podemos criar elementos, selecionar elementos, adicionar atributos no html, mudar o valores dos elementos html podemos manipular o css do html atraves do js praticamento são possibilidades quases infinitas que veremos as mais essencias nesse repo.
+
+Basicamente tudo que é possivel fazer com html e css o javascript pode replicar mais o js não foi criado para subestituir html e css para para adicionar uma camada extra de interação unindo os dois de forma a trazer arminia no site.
+
+### Estrutura básica do DOM
 
 [ 1 ] - Documento (O nó raiz que representa o documento ineiro)<br>
 [ 2 ] - Elemento (Representa os elementos como tags html ou xml)<br>
@@ -38,9 +46,9 @@ HTML no navegador
          - "Este é um parágrafo."
 ```
 
-Com isso podemos ver que o DOM dividi cada elemento um unico só e isso nos permite fazer qualquer tipo de manipula''cões usando JS deste modificar elementos(texto, cor, posição, tamanho etc) criar elementos(p, div, h1, img etc) e muitas outras coisas.
+Com isso podemos ver que o DOM divide cada elemento um unico só e isso nos permite fazer qualquer tipo de manipula''cões usando JS deste modificar elementos(texto, cor, posição, tamanho etc) criar elementos(p, div, h1, img etc) e muitas outras coisas.
 
-Como acessar elementos html usando JS
+### Como acessar elementos html usando JS
 
 Para se acessar elementos html apartir do js podemos acessar elementos atraves de tags, names, classes, ids e for ai a fora.
 
@@ -109,5 +117,87 @@ Exemplo:
 
 const titulos = document.querySelectorAll(".titulos")//JS
 ```
+
+### Como acessar propriedades dos elementos html
+
+Para pegarmos o valor de um elemento html pegamos da mesma forma que acessamos as propriedades de um objecto atráves da notação . porque cada elementos html retornar um objecto com as suas propriedades  
+
+Exemplo:
+```
+<p class="paragrafro" id="parag">Texto do paragrafo</p>
+```
+
+Da mesma forma que que estão escritos as propriedades no html no js é só criar a variavel que armazena a seleção do elemento desejado e usar o . com exceção de algumas propriedades.
+
+Exemplo:
+
+```
+variavel.className//Exceção
+variavel.id
+```
+
+Se quiser pegar o texto do elemento use o textContent ou o innerHTML ou o innerText
+
+Exemplo:
+```
+variavel.textContent = ""
+variavel.innerHTML = ""
+varaivel.innerText = ""
+```
+
+Se quiser ver todas propriedaes de um determinado elemento é só colocar a variavel que armazena a sua seleção em um console.log(variavel do elemnto html)
+
+Exemplo:
+```
+const p = document.getElementById("parag")
+console.log(p)
+```
+
+Vai retornar um objecto com todas suas propriedades e isso pode ser feito com a maior parte dos elementos html seguindo esse pensamento poderá efetuar qualquer tipo de alteração que quiser em um elemnto html até mexer com o seu css.
+
+Exemplo acessando o css:
+
+```
+p.style.color = "red"
+p.style.backgroundColor = "red"
+```
+
+E assim por dianta no css só não usa o - se tiver um atributo que preciso de - use o camel case exemplo background-color:errado o certo seria backgroundColor
+
+O style. Retornar outro objecto com as propriedades css normais se não soubr como escrever só usar o style. e o autocomplete vai ajudar.
+
+
+### Criando elementos html com texto usando js
+
+
+Para se criar qualquer elemento usamos a seguinte sintaxe
+
+```
+const div = document.createElement("nome do elemento")
+```
+
+Adicionando texto ao elemento
+```
+div.textContent = "informação do texto"
+```
+
+Usando o createTextNode para criar o texto do elemento
+```
+const textDiv = document.createNode("texto da div")
+```
+
+Depois é só adicionar o texto como filho da div 
+
+```
+div.appendChild(textDiv)
+```
+
+E depois a div como filho do body para mostrar na pagina
+
+```
+document.body.appendChild(div)
+```
+
+Depois disso é só explorar as possibilidades do DOM e se quiser mais alguma coisa relacionado ao DOM é só buscar se quiser pode me contactar também.
 
 ## Não se limite a ver o conteúdo abra o seu editor de codigo e pratica para fixar a informação
