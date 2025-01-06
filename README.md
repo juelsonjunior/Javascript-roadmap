@@ -1,7 +1,7 @@
 # ROADMAP JAVASCRIPT
 
-Nesse roadmap tem uma lista de conceitos e exercicios sobre diversos assunto e esse roamap abrange desde o basico
-até o avançado com assunto como promise async/await teste unitario, perfomace frameworks e muito mais 
+Nesse roadmap tem uma lista de conceitos e exercicios sobre diversos assuntos de js e esse roadmap abrange desde o básico
+até o avançado com assuntos como promise async/await design patterns, perfomace frameworks e muito mais 
 
 JavaScript (abreviado como JS) é uma linguagem de programação de alto nível, frequentemente utilizada para criar 
 conteúdos interativos em páginas da web. Inicialmente, foi desenvolvida para rodar no lado do cliente, ou seja, 
