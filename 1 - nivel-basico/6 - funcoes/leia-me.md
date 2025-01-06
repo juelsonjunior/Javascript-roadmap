@@ -20,13 +20,6 @@ Usando ou chamando uma função
 nomeFuncao()//assim vai retornar os dados da função se tiver um console.log na função
 ```
 
-Uma outra forma de se usar funções é usando arrow function ou traduzindo funções de seta uma forma mais moderna de se decralar funções
-```
-const nomeFunção = (parametro opcional) => {
-    bloco de codigo
-}
-```
-
 Para uma função executar varias vezes é só chamar ou invocar ela varias vezes
 
 ## Não se limite a ver o conteúdo abra o seu editor de codigo e pratica para fixar a informação
