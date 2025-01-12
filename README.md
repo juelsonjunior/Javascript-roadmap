@@ -4,7 +4,7 @@ JavaScript (abreviado como JS) é uma linguagem de programação de alto nível,
 conteúdos interativos em páginas da web. Inicialmente, foi desenvolvida para rodar no lado do cliente, ou seja, 
 no navegador dos usuários. No entanto, com a introdução do Node.js, também passou a ser usada no lado do servidor
 
-## Algumas versatilidades do javascript
+## Temas de cada nivel de aprendizado
 
 [ 1 ] - Nível básicos<br>
       - Variaveis<br>
